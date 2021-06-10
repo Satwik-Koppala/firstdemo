@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.nau.hibernate.entity.Person" table="person10may">
+		<id name="Id" column="pid">
+			<generator class="assigned"></generator> 
+		</id>
+		<property name="name" column="PName"></property>
+		<property name="city" column="PCity"></property>
+	</class>
+
+</hibernate-mapping>
+ 
